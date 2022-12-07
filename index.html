@@ -76,11 +76,11 @@
                       <div class="table-row-e">
                           <div class="table-cell">purchase</div>
                           <label for="membership"></label>
-                          <div class="table-cell"><input type="radio" name="membership" value=""></div>
-                          <div class="table-cell"><input type="radio" name="membership" value=""></div>
-                          <div class="table-cell"><input type="radio" name="membership" value=""></div>
-                          <div class="table-cell"><input type="radio" name="membership" value=""></div>
-                          <div class="table-cell"><input type="radio" name="membership" value=""></div>
+                          <div class="table-cell"><input type="radio" id="membership" value=""></div>
+                          <div class="table-cell"><input type="radio" id="membership" value=""></div>
+                          <div class="table-cell"><input type="radio" id="membership" value=""></div>
+                          <div class="table-cell"><input type="radio" id="membership" value=""></div>
+                          <div class="table-cell"><input type="radio" id="membership" value=""></div>
                       </div>
                       <div class="table-row-o">
                           <div class="table-cell">service</div>
@@ -125,11 +125,11 @@
                             <div class="table-row-o">
                                 <div class="table-cell">Recommend our Products to others</div>
                                 <label for="membership4"></label>
-                                <div class="table-cell"><input type="radio" name="membership4" value=""></div>
-                                <div class="table-cell"><input type="radio" name="membership4" value=""></div>
-                                <div class="table-cell"><input type="radio" name="membership4" value=""></div>
-                                <div class="table-cell"><input type="radio" name="membership4" value=""></div>
-                                <div class="table-cell"><input type="radio" name="membership4" value=""></div>
+                                <div class="table-cell"><input id="membership4" type="radio" name="membership4" value=""></div>
+                                <div class="table-cell"><input id="membership4" type="radio" name="membership4" value=""></div>
+                                <div class="table-cell"><input id="membership4" type="radio" name="membership4" value=""></div>
+                                <div class="table-cell"><input id="membership4" type="radio" name="membership4" value=""></div>
+                                <div class="table-cell"><input id="membership4" type="radio" name="membership4" value=""></div>
                             </div>
                             <div class="table-row-e">
                                 <div class="table-cell">Recommend our company to others</div>
@@ -146,9 +146,10 @@
                 <div class="comments">
                     <b>Additions comments or suggestions<sup style="color:red">*</sup></b>
                     <label for="description"></label><br>
-                    <textarea name="message" cols="65" rows="5" ></textarea>
+                    <input type="text" id="description" name="message" placeholder="Description">
+                    <!-- <textarea name="message" cols="65" rows="5" ></textarea> -->
                 </div>
-                <div><input type="submit" value="Submit" style="color:rgba(169, 169, 169, 0.822)"></input></div>
+                <div><button type="submit" id="submit" class="btn btn-primary btn-lg btn-block" value="Submit" style="color:rgba(245, 237, 237, 0.822)">Submit</button></div>
                 <br>
               </div>
             </div>
